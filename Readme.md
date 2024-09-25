@@ -4,6 +4,10 @@
 
 The **District Projects Management Platform** is a web-based solution as a part of the **Smart India Hackathon 2024**, designed to facilitate inter-departmental cooperation at the city level departments in the country. The platform enables seamless sharing of data and resources, unified project phasing, planning, and implementation among multiple departments. The goal is to enhance efficiency, collaboration, and resource management within city governance and catering to the needs of the diverse stakeholders viz. citizens, NGOs, tourists, investors etc.
 
+## Code-simplified:
+- **LP :** Landing Page 
+- **ADM :** Administration
+
 ## Features
 
 - **Centralized Dashboard**: A unified feed displaying updates and information from all connected departments.
@@ -63,7 +67,7 @@ Contributions are welcome! Here's how you can get involved:
 
 1. Fork the repository.
 2. Create a new branch
-3. Make your changes and commit them.
+3. Install dependencies and Code your changes and commit them.
 4. Push to the branch.
 5. Open a pull request.
 
