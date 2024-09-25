@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>citizen authentication</title>
+    <link rel="stylesheet" href="css/login-reg.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <div class="form sign-in">
+        <h2>Citizen login</h2>
+        <label>
+          <input type="text" placeholder="username" />
+        </label>
+        <!-- <label>
+          <input type="email" placeholder="email" />
+        </label> -->
+
+        <label>
+          <input type="password" placeholder="password" />
+        </label>
+        <p class="forgot-pass">Forgot password?</p>
+        <a href="LPUserindex.html" style="text-decoration: none">
+          <button type="button" class="submit">Sign In</button>
+        </a>
+        <button type="button" class="fb-btn">
+          Connect with <span>Google</span>
+        </button>
+        <button type="button" class="fb-btn">
+          Connect with <span>facebook</span>
+        </button>
+      </div>
+      <div class="sub-cont">
+        <div class="img">
+          <div class="img__text m--up">
+            <h2>New here?</h2>
+            <p>Sign up and discover great amount of new opportunities!</p>
+          </div>
+          <div class="img__text m--in">
+            <h2>Have an account?</h2>
+            <p>sign in.</p>
+          </div>
+          <div class="img__btn">
+            <span class="m--up">Sign Up</span>
+            <span class="m--in">Sign In</span>
+          </div>
+        </div>
+        <div class="form sign-up">
+          <h2>Register Here</h2>
+          <label>
+            <span>Name</span>
+            <input type="text" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" />
+          </label>
+          <label>
+            <label>
+              <span>Phone Number</span>
+              <input
+                type="tel"
+                pattern="[+][0-9]{2}-[0-9]{5}-[0-9]{5}"
+              /> </label
+            ><br />
+            <span>Password</span>
+            <input type="password" />
+          </label>
+          <label>
+            <span>Confirm Password</span>
+            <input type="password" />
+          </label>
+          <button type="button" class="submit">Sign Up</button>
+          <button type="button" class="fb-btn">
+            Connect with <span>Google</span>
+          </button>
+          <button type="button" class="fb-btn">
+            Connect with <span>facebook</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/login-reg.js"></script>
+  </body>
+</html>

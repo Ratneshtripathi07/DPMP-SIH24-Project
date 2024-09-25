@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Package files
+package-lock.json
+
+# Tailwind config
+tailwind.config.js
+
+# Package file 
+# package.json  
+
+# Logs
+*.log
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# IDE-specific files
+.vscode/
+.idea/
+
+
+# Git internal files
+.gitattributes

@@ -1,0 +1,178 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>authentication</title>
+    <link rel="stylesheet" href="css/login-reg.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <div class="form sign-in">
+        <h2>DPMP administration</h2>
+        <!-- department select -->
+        <!-- refer v1.1 -->
+        <!-- department select -->
+        <div>
+          <label for="department">
+            <h3 class="label-text">Department:</h3>
+            <select
+              name="department"
+              id="department"
+              required
+              class="dep-select"
+            >
+              <option value="">Select Department</option>
+              <option value="health">Health Department</option>
+              <option value="education">Education Department</option>
+              <option value="transportation">Transportation Department</option>
+              <option value="public_works">Public Works Department</option>
+              <option value="housing">Housing Department</option>
+              <option value="finance">Finance Department</option>
+            </select>
+            <div class="error" id="department-error"></div>
+          </label>
+        </div>
+
+        <!-- department select ends -->
+        <label>
+          <span>Govt. Employee Id</span>
+          <input type="text" id="govt-id" required />
+          <div class="error" id="govt-id-error"></div>
+        </label>
+        <!-- <label>
+          <span>Full Name</span>
+          <input type="text" id="sign-in-fullname" required />
+          <div class="error" id="sign-in-fullname-error"></div>
+        </label> -->
+        <label>
+          <span> UserName </span>
+          <input type="text" id="sign-in-username" required />
+          <div class="error" id="sign-in-username-error"></div>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" id="email" required />
+          <div class="error" id="email-error"></div>
+        </label>
+
+        <label>
+          <span>Password</span>
+          <input type="password" id="password" required />
+          <div class="error" id="password-error"></div>
+        </label>
+        <p class="forgot-pass">Forgot password?</p>
+        <a href="ADMhome.html" style="text-decoration: none">
+          <button type="button" class="submit" id="sign-in-btn">Sign In</button>
+        </a>
+        <button type="button" class="fb-btn">
+          Login with OTP on <span>Phone</span>
+        </button>
+        <button type="button" class="fb-btn">
+          Login with OTP on <span>Email(official)</span>
+        </button>
+        <button type="button" class="fb-btn">
+          Login with <span>Biometrics</span>
+        </button>
+      </div>
+      <div class="sub-cont">
+        <div class="img">
+          <div class="img__text m--up">
+            <h2>Employee?</h2>
+            <p>Sign up with your official credentials and breeze through</p>
+          </div>
+          <div class="img__text m--in">
+            <h2>Already registered?</h2>
+            <p>If you already have an account, just sign in.</p>
+          </div>
+          <div class="img__btn">
+            <span class="m--up">Sign Up</span>
+            <span class="m--in">Sign In</span>
+          </div>
+        </div>
+
+        <!-- sign up -->
+        <div class="cont">
+          <div class="form sign-up">
+            <h2>Register Here</h2>
+            <!-- department select -->
+            <div>
+              <label for="department">
+                <h3 class="label-text">Department:</h3>
+                <select
+                  name="department"
+                  id="department"
+                  required
+                  class="dep-select"
+                >
+                  <option value="">Select Department</option>
+                  <option value="health">Health Department</option>
+                  <option value="education">Education Department</option>
+                  <option value="transportation">
+                    Transportation Department
+                  </option>
+                  <option value="public_works">Public Works Department</option>
+                  <option value="housing">Housing Department</option>
+                  <option value="finance">Finance Department</option>
+                </select>
+                <div class="error" id="department-error"></div>
+              </label>
+            </div>
+            <!-- department select ends -->
+            <label>
+              <span>Govt. Employee Id</span>
+              <input type="text" id="govt-id" required />
+              <div class="error" id="govt-id-error"></div>
+            </label>
+            <label>
+              <span>Full Name</span>
+              <input type="text" id="name" required />
+              <div class="error" id="name-error"></div>
+            </label>
+            <!--  -->
+            <!-- we need to add a check for the userName so that it is unique and can't be repeated (to be done later) -->
+            <label>
+              <span>Create a userName</span>
+              <input type="text" id="sign-up-username" required />
+              <div class="error" id="sign-up-username-error"></div>
+            </label>
+            <!--  -->
+            <label>
+              <span>Email (official)</span>
+              <input type="email" id="sign-up-email" required />
+              <div class="error" id="sign-up-email-error"></div>
+            </label>
+            <label>
+              <span>Phone </span>
+              <input type="number" id="sign-up-phone" required />
+              <div class="error" id="sign-up-phone-error"></div>
+            </label>
+            <label>
+              <span>Aadhar Number </span>
+              <input type="number" id="sign-up-aadhar" required />
+              <div class="error" id="sign-up-aadhar-error"></div>
+            </label>
+            <label>
+              <span>Password</span>
+              <input type="password" id="sign-up-password" required />
+              <div class="error" id="sign-up-password-error"></div>
+            </label>
+            <label>
+              <span>Confirm Password</span>
+              <input type="password" id="sign-up-confirm-password" required />
+              <div class="error" id="sign-up-confirm-password-error"></div>
+            </label>
+            <button type="button" class="submit" id="sign-up-btn">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/login-reg.js"></script>
+  </body>
+</html>
