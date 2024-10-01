@@ -2644,6 +2644,7 @@ header {
 /* #language:hover {
   background-color: #1a2238;
 } */
+
 #sign-in {
   background-color: #ff6a3d;
   color: #ffffff;
@@ -2711,6 +2712,14 @@ header {
 
 .sign-in:hover {
   background-color: #1a2238;
+}
+
+.nav-list-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-list-item:hover {
+  transform: scale(1.1);
 }
 
 .container2 {
