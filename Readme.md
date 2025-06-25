@@ -1,4 +1,4 @@
-# District Projects Management Platform (DPMP)
+# District Projects Management Platform (DPMP) Prototype Selected in SIH'24
 
 ## Overview
 
